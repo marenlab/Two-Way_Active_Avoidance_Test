@@ -31,6 +31,7 @@ Descriptive event labels including:
   – "ITI": Inter-trial interval.
   – "CS Remainder": Reinforcing conditioned stimulus after a "CS".
   – "after CS": Events occurring after the CS Remainder (renamed to "Silence gap after CS remainder").
+  
 OUTPUT:
 Summary – A summary of all shuttle events during the experimental session.
 Intervals – Time intervals corresponding to each CS, CS remainder, after-CS, ITI, and US.
@@ -50,10 +51,10 @@ For Output_Events{X}, each spreadsheet consists of:
 ------------------
 Avoidance_stats Script
 
-INPUT
+INPUT:
 The input dataset comes from the Summary output, which includes all total shuttles from the experimental phase for all animals.
 
-OUTPUT
+OUTPUT:
 Stats.summary → A 1x3 cell array, where:
 – Column 1 → Acclimation phase
 – Column 2 → Pavlovian CS phase
