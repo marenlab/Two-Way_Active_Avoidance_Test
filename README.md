@@ -2,13 +2,13 @@
 
 This toolbox streamlines the **visualization and organization of experimental data** from the **Colbourn active avoidance chamber** by aligning outputs with the distinct event types recorded throughout behavioral sessions.
 
-### **Input**
-Still under construction.
+## **Still under construction**
 Bugs may occur if the configured labels differ from the default ones described here.
 Alternatively, if the infrared sensors that collect the data produce conflicting outputs, such as:
 
-RIGHT ENTRANCE / LEFT ENTRANCE
-RIGHT EXIT / LEFT EXIT
+- RIGHT ENTRANCE / LEFT ENTRANCE
+- RIGHT EXIT / LEFT EXIT
+
 This would not match the expected pattern.
 New conditions in the code still need to be implemented
 
