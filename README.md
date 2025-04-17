@@ -2,6 +2,16 @@
 
 This toolbox streamlines the **visualization and organization of experimental data** from the **Colbourn active avoidance chamber** by aligning outputs with the distinct event types recorded throughout behavioral sessions.
 
+### **Input**
+Still under construction.
+Bugs may occur if the configured labels differ from the default ones described here.
+Alternatively, if the infrared sensors that collect the data produce conflicting outputs, such as:
+
+RIGHT ENTRANCE / LEFT ENTRANCE
+RIGHT EXIT / LEFT EXIT
+This would not match the expected pattern.
+New conditions in the code still need to be implemented
+
 ---
 
 ## 📁 Main Script
@@ -48,11 +58,11 @@ This toolbox streamlines the **visualization and organization of experimental da
   | 3      | CS, US, and ITI (Avoidance phase) |
 
 Each `Output_Events{X}` contains:
-- Column 1: Time in session  
+- Column 1: Time in seconds  
 - Column 2: Shuttle direction  
 - Column 3: Phase (e.g., CS, ITI)  
 - Column 4: Description of the phase  
-- Column 5: Time delta from the last event  
+- Column 5: Delta T from the preceding event  
 - Column 6: Description of the preceding event  
 
 ---
