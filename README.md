@@ -13,8 +13,11 @@ This would not match the expected pattern.
 New conditions in the code still need to be implemented
 
 ---
+Project
+This research project was conducted at the Maren Lab, Department of Psychological and Brain Sciences, Texas A&M University, and at the Beckman Institute for Advanced Science and Technology, as part of Samantha L. Plas’s PhD.
 
-## 📁 Main Script
+---
+## Main Script
 
 **Script:** `Avoidance_Analyse.m`  
 **Main Purpose:**  
@@ -26,7 +29,7 @@ New conditions in the code still need to be implemented
 
 ---
 
-## ⚙️ Function: `Avoidance_conditioning`
+## Function: `Avoidance_conditioning`
 
 ### **Input**
 - `input_settings` – Experimental settings (e.g., thresholds, parameters).  
@@ -67,7 +70,7 @@ Each `Output_Events{X}` contains:
 
 ---
 
-## 📊 Script: `Avoidance_stats`
+## Script: `Avoidance_stats`
 
 ### **Input**
 - `Summary` output: contains all shuttles per animal during the conditioning phase.
@@ -88,21 +91,22 @@ An additional `.csv` file is generated, where each experimental phase is separat
 
 ---
 
-## 📈 Script: `Avoidance_plots`
+## Script: `Avoidance_plots`
 
 - Generates basic visualizations based on the structured output.
 
 ---
 
-## 👥 Authors
+## Authors
 
 **Flavio Mourao**  
 **Samantha Plas**
 
 **Contact:**  
-📧 mourao.fg@illinois.edu  
+
 🧠 Maren Lab – Beckman Institute for Advanced Science and Technology  
-🏫 University of Illinois Urbana-Champaign
+University of Illinois Urbana-Champaign
+mourao.fg@illinois.edu  
 
 ---
 
