@@ -13,7 +13,6 @@ This would not match the expected pattern.
 New conditions in the code still need to be implemented
 
 ---
-Project
 This research project was conducted at the Maren Lab, Department of Psychological and Brain Sciences, Texas A&M University, and at the Beckman Institute for Advanced Science and Technology, as part of Samantha L. Plas’s PhD.
 
 ---
